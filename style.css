@@ -629,6 +629,7 @@ svg {
 
   .logo2 {
     margin-right: 5rem;
+    /* position:absolute; */
   }
 
   .nav {
@@ -668,7 +669,7 @@ svg {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-left:  1rem;
+    margin-left:  9rem;
   }
 
   .showcase-btn {
