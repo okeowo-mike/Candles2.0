@@ -47,8 +47,7 @@ svg {
 /* nav bar //////////////////////////////////////// */
 
 #show-container {
-  background: url(./bkimg.webp) no-repeat center
-    center/cover;
+  background: url(./bkimg.webp) no-repeat center center/cover;
 }
 
 .header {
@@ -435,7 +434,7 @@ svg {
   text-align: center;
 }
 
-#extra-text p{
+#extra-text p {
   max-width: 500px;
   margin: 1rem;
 }
@@ -447,7 +446,6 @@ svg {
   align-items: center;
   margin: auto;
 }
-
 
 #extra-image {
   background: url(./new3.webp) no-repeat center center/cover;
@@ -669,7 +667,7 @@ svg {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-left:  9rem;
+    margin-left: 2rem;
   }
 
   .showcase-btn {
