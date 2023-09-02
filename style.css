@@ -673,9 +673,10 @@ span {
   .primary-navigation {
     position: fixed;
     inset: 0 0 0 40%;
-    background: hsl(0 0% 100% / 0.7);
+    background: hsl(0 0% 100% / 0.5);
     border-radius: 5px;
-    backdrop-filter: blur(6rem);
+    background-color: rgba(255, 255, 255, 0.9);
+    /* backdrop-filter: blur(6rem); */
     flex-direction: column;
     height: 60vh;
     padding: min(30vh, 5rem) 2em;
