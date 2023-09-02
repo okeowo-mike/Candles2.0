@@ -28,8 +28,8 @@ a {
 
 .nav a:hover {
   color: rgb(148, 148, 148);
-  border-bottom: 1.5px solid white;
-  transition: all ease-in-out 0.3s;
+  border-bottom: 1.5px solid rgb(250, 142, 18);
+  transition: all ease-out 0.3s;
 }
 
 ul {
@@ -42,6 +42,10 @@ ul {
 
 svg {
   font-size: 1.5rem;
+}
+
+span {
+  color: rgb(250, 142, 18);
 }
 
 /* nav bar //////////////////////////////////////// */
@@ -131,7 +135,7 @@ svg {
 .text h1 {
   font-size: clamp(3.5rem, 4vw, 7rem);
   color: transparent;
-  -webkit-text-stroke: 1px #fffefe;
+  -webkit-text-stroke: 1.2px #fffefe;
   background: url(./back.png);
   -webkit-background-clip: text;
   background-clip: text;
@@ -146,6 +150,9 @@ svg {
   }
 }
 
+.text p {
+  color: rgb(250, 142, 18);
+}
 .showcase-btn {
   display: flex;
   justify-content: flex-end;
@@ -627,6 +634,7 @@ svg {
 
   .logo2 {
     margin-right: 9rem;
+    font-size: 1.2rem;
     /* position:absolute; */
   }
 
@@ -657,7 +665,7 @@ svg {
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   /* hamburger menu //////////////////// */
@@ -665,9 +673,9 @@ svg {
   .primary-navigation {
     position: fixed;
     inset: 0 0 0 40%;
-    background: hsl(0 0% 100% / 0.3);
+    background: hsl(0 0% 100% / 0.7);
     border-radius: 5px;
-    backdrop-filter: blur(3rem);
+    backdrop-filter: blur(6rem);
     flex-direction: column;
     height: 60vh;
     padding: min(30vh, 5rem) 2em;
