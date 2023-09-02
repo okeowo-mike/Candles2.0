@@ -664,14 +664,14 @@ svg {
 
   .primary-navigation {
     position: fixed;
-    inset: 0 0 0 30%;
-    background: hsl(0 0% 100% / 0.2);
+    inset: 0 0 0 40%;
+    background: hsl(0 0% 100% / 0.3);
     border-radius: 5px;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(3rem);
     flex-direction: column;
     height: 60vh;
     padding: min(30vh, 5rem) 2em;
-    padding-right: 14rem;
+    padding-right: 11rem;
     margin-top: 0.2rem;
     transform: translateX(100%);
     transition: transform 450ms ease-out;
