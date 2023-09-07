@@ -240,7 +240,7 @@ span {
 /* bestseller card section ///////////////////////// */
 
 #bestseller-container {
-  height: 100vh;
+  /* height: 100vh; */
   color: #000000;
 }
 
@@ -287,6 +287,9 @@ span {
   max-width: 900px;
   margin: auto;
 }
+#bestseller p {
+  height: 150px;
+}
 
 #best-container {
   perspective: 800px;
@@ -299,7 +302,7 @@ span {
   justify-content: center;
   align-items: center;
   color: #000000;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 #best-container .card_title {
@@ -376,7 +379,8 @@ span {
 
 #cool-bkg {
   background: url(./coolbkg.png) no-repeat center center/cover;
-  height: 70vh;
+  height: 100vh;
+  margin-top: 10rem;
 }
 
 /* up-coming ////////////////////////////////////*/
@@ -391,6 +395,9 @@ span {
   max-width: 900px;
   margin: auto;
   color: #000000;
+}
+#upp_coming p {
+  height: 100px;
 }
 
 #upp_coming-container {
@@ -738,6 +745,7 @@ span {
     max-width: 350px;
     margin: auto;
     color: #000000;
+    margin-top: 5rem;
   }
 
   /* best seller */
