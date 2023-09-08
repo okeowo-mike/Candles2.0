@@ -217,7 +217,8 @@ span {
 /* story section  /////////////////////////// */
 
 #story-container {
-  height: 60vh;
+  /* height: 50vh; */
+  margin-top: 4rem;
   color: #000000;
 }
 #story-container {
@@ -230,8 +231,8 @@ span {
 }
 
 #story-heading {
-  margin-top: -4rem;
-  margin-bottom: 1.5rem;
+  /* margin-top: -4rem; */
+  margin-bottom: 2rem;
 }
 #story-p {
   max-width: 650px;
@@ -241,6 +242,7 @@ span {
 
 #bestseller-container {
   /* height: 100vh; */
+  margin-top: 4rem;
   color: #000000;
 }
 
@@ -283,12 +285,11 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
   max-width: 900px;
   margin: auto;
 }
 #bestseller p {
-  height: 150px;
+  height: 120px;
 }
 
 #best-container {
@@ -302,7 +303,7 @@ span {
   justify-content: center;
   align-items: center;
   color: #000000;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 
 #best-container .card_title {
@@ -779,6 +780,11 @@ span {
     width: 390px;
     margin: auto;
   }
+
+  #bestseller p {
+  height: 100px;
+  padding-top: 1rem;
+}
 
   /* up coming section */
 
